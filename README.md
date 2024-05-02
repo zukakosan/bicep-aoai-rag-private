@@ -3,7 +3,7 @@ Bicep in this repository deploys the private RAG architecture like image bellow.
 ![](/imgs/private-rag-architecture.png)
 
 ## Caution
-Possiblly using the 2024-03-01 ver API to deploy shared private link from Azure AI Search to Azure OpenAI Service, the process shows the error from the second deploy onwards.
+Possiblly using the `2024-03-01-Preview` ver API to deploy shared private link from Azure AI Search to Azure OpenAI Service, the process shows the error from the second deploy onwards.
 
 ```
 [{"code":"BadRequest","message":"When updating a shared private link resource, only 'requestMessage' property is allowed to be modified RequestId: c139ebd3-3ae6-4922-99bd-588a182261dc"}]

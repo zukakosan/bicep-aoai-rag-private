@@ -25,7 +25,7 @@ resource strgSharedPrivateLink 'Microsoft.Search/searchServices/sharedPrivateLin
 }
 
 // 2024-03-01-Preview only supports shared private link for AOAIs
-resource aoaiSharedPrivateLink 'Microsoft.Search/searchServices/sharedPrivateLinkResources@2024-03-01-Preview' = if(aoaiSharedPeIdExist){
+resource aoaiSharedPrivateLink 'Microsoft.Search/searchServices/sharedPrivateLinkResources@2024-03-01-Preview' = {
   name: aoaiSharedPeName
   parent: aiSearch
   properties: {
